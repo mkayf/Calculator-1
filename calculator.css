@@ -1,0 +1,100 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: url('https://images.pexels.com/photos/7134986/pexels-photo-7134986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-size: 60px;
+    border-bottom: 5px solid red;
+    text-shadow: 0px 0px 10px gray;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 349px;
+    height: 440px;
+    border: none;
+    border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0px gray;
+}
+#display-input{
+    width: 333px;
+    height: 100px;
+    text-align: right;
+    outline: none;
+    position: relative;
+    bottom: 22px;
+    border: none;
+    background-color: red;
+    padding: 8px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+}
+#display-input::-webkit-outer-spin-button, #display-input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.buttons{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    margin: 5px;
+    border: none;
+    background-color: gainsboro;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.5s;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgb(20, 18, 18);
+}
+.buttons:hover{
+    transform: scale(1.1);
+    color: red;
+}
+.buttons:active{
+    background-color: red;
+    color: white;
+}
+#equal{
+    background-color: red;
+    color: white;
+}
+
+
+.clear{
+    position: relative;
+    bottom: 13px;
+    right: 107px;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    width: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 15px;
+}
+.clear:active{
+    transform: scale(1.1);   
+}
